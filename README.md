@@ -40,75 +40,96 @@ Built with modular design, flexible tools, and ready for both console and web in
 ````
 
 ## 🚀 How to Run
-🔹 Option 1 — Main Runner
+
+### 🔷 Option 1 — Main Runner
+
+```
 bash
-Copy
-Edit
-python memerag_v2_2pro.py
-Default mode is Gradio web app.
+python memerag_v2_2pro.py 
+```
+
+*Default mode is Gradio web app.*
 
 Change mode to "chat" inside the file to use console chat loop.
 
-🔹 Option 2 — Classic Chat Loop
-bash
-Copy
-Edit
-python memerag_chat_loop.py
-🔹 Option 3 — Gradio Web App
-bash
-Copy
-Edit
+---
+
+### 🔷 Option 2 — Classic Chat Loop
+
+```bash
+python memerag_chat_loop.py 
+```
+
+### 🔷 Option 3 — Gradio Web App
+
+```bash
 python memerag_gradio_ui.py
-🧠 How MemeRAG Works
-Embedder converts user input into vectors.
+```
 
-Retriever searches memes semantically.
+🧠 **How MemeRAG Works**
 
-Intent Classifier detects input intent and filters memes.
+* Embedder converts user input into vectors.
+* Retriever searches memes semantically.
+* Intent Classifier detects input intent and filters memes.
+* Selector picks the best meme.
+* Result is displayed as meme + caption.
 
-Selector picks the best meme.
+---
 
-Result is displayed as meme + caption.
+### 📝 Customization
 
-📝 Customization
-Update memes → memes_list.py
+* Update memes → `memes_list.py`
+* Change intent keywords → `intent_classifier.py`
+* Adjust selection logic → `smart_meme_rag_manager.py` / `components.py`
 
-Change intent keywords → intent_classifier.py
+---
 
-Adjust selection logic → smart_meme_rag_manager.py / components.py
+### 🔐 API Keys
 
-🔒 API Keys
 Place OpenAI API key in:
 
-plaintext
-Copy
-Edit
+```plaintext
 meme_config/openai_key.txt
-🗃 Obsolete Versions
-Older scripts archived in obsolete/.
-Reference examples in obsolete/examples/.
+```
 
-🔗 GitHub + Colab Use
+🗂 Obsolete versions archived in `obsolete/`. Reference examples in `obsolete/examples/`.
+
+---
+
+### 🐙 GitHub + Colab Usage
+
 Clone repo:
 
-bash
-Copy
-Edit
-!git clone https://github.com/YourUsername/meme_rag.git
-%cd meme_rag
+```bash
+git clone https://github.com/YourUsername/meme_rag.git
+cd meme_rag
+```
+
 Install requirements:
 
-bash
-Copy
-Edit
-!pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
 Run:
 
-python
-Copy
-Edit
-import memerag_gradio_ui  # Or use memerag_v2_2pro.py
-All modular imports will work automatically.
+```bash
+python memerag_gradio_ui.py 
+```
 
-👑 Credits
-Created and managed by Parnal Sinha.
+*or use*
+
+```bash
+python memerag_v2_2pro.py
+```
+
+*All modular imports will work automatically.*
+
+---
+
+### 👑 Credits
+
+Created and managed by **Parnal Sinha**.
+
+
+
