@@ -37,7 +37,9 @@ Built with modular design, flexible tools, and ready for both console and web in
 ├── 📁 chats/                     
 │   ├── memerag_chatlog_v2_2.csv
 │   ├── other logs...
-🚀 How to Run
+````
+
+## 🚀 How to Run
 🔹 Option 1 — Main Runner
 bash
 Copy
