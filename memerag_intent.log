@@ -1,0 +1,107 @@
+2025-05-05 23:24:32,497 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-05 23:24:33,199 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-05 23:24:33,208 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-05 23:24:33,253 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-05 23:24:33,254 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-05 23:24:34,827 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-05 23:24:51,326 - meme_rag_manager - INFO - SmartMemeRAGManager initialized with 83 valid tags
+2025-05-05 23:24:51,683 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-05 23:24:51,700 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-05 23:24:51,730 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-05 23:46:54,268 - intent_classifier - INFO - No matches found for message 'When someone says they don't l...', using fallback: 'mockery'
+2025-05-05 23:46:54,269 - meme_rag_manager - INFO - Context tag for query 'When someone says they don't l...' -> 'mockery'
+2025-05-06 00:00:12,664 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-06 00:00:12,766 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-06 00:00:12,771 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-06 00:00:12,797 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-06 00:00:12,797 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-06 00:00:20,625 - meme_rag_manager - INFO - SmartMemeRAGManager initialized with 83 valid tags
+2025-05-06 00:00:20,993 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-06 00:00:21,018 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-06 00:00:21,036 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-06 00:01:21,945 - intent_classifier - INFO - Message 'Oh sure, because THAT always w...' classified as 'agreement' with 1 matches
+2025-05-06 00:01:21,945 - meme_rag_manager - INFO - Intent tag 'agreement' mapped to context tag 'agreement' for query 'Oh sure, because THAT always w...'
+2025-05-06 00:11:36,319 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-06 00:11:36,362 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-06 00:11:36,370 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-06 00:11:36,400 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-06 00:11:36,401 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-06 00:11:42,255 - meme_rag_manager - INFO - SmartMemeRAGManager initialized with 83 valid tags
+2025-05-06 00:11:42,539 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-06 00:11:42,585 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-06 00:11:42,603 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-06 00:12:59,896 - intent_classifier - INFO - No matches found for message 'I'm so angry about this situat...', using fallback: 'confused'
+2025-05-06 00:12:59,897 - meme_rag_manager - INFO - Intent tag 'confused' mapped to context tag 'confused' for query 'I'm so angry about this situat...'
+2025-05-06 00:17:11,650 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-06 00:17:11,746 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-06 00:17:11,753 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-06 00:17:11,786 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-06 00:17:11,786 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-06 00:17:18,556 - meme_rag_manager - INFO - SmartMemeRAGManager initialized with 0 valid tags
+2025-05-06 00:17:18,851 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-06 00:17:18,896 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-06 00:17:18,914 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-06 00:17:31,324 - intent_classifier - INFO - Message 'I'm so angry about this situat...' classified as 'angry' with 1 matches
+2025-05-06 00:17:31,324 - meme_rag_manager - INFO - Intent tag 'angry' mapped to context tag 'angry' for query 'I'm so angry about this situat...'
+2025-05-06 00:17:31,478 - meme_rag_manager - INFO - Filtered 10 candidates to 0 matches for 'angry'
+2025-05-06 00:17:31,478 - meme_rag_manager - INFO - No exact matches for 'angry', trying broader tag matching
+2025-05-06 00:17:31,478 - meme_rag_manager - INFO - Found 4 broader tag matches
+2025-05-06 00:17:31,480 - meme_rag_manager - INFO - Selected meme: sad_escobar.png
+2025-05-06 00:23:20,925 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-06 00:23:21,019 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-06 00:23:21,026 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-06 00:23:21,047 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-06 00:23:21,047 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-06 00:23:28,264 - meme_rag_manager - INFO - SmartMemeRAGManager initialized with 0 valid tags
+2025-05-06 00:23:28,635 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-06 00:23:28,653 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-06 00:23:28,659 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-06 00:23:46,768 - intent_classifier - INFO - Message 'I'm so proud of what I accompl...' classified as 'proud' with 2 matches
+2025-05-06 00:23:46,768 - meme_rag_manager - INFO - Intent tag 'proud' mapped to context tag 'proud' for query 'I'm so proud of what I accompl...'
+2025-05-06 00:23:47,859 - meme_rag_manager - INFO - Filtered 10 candidates to 0 matches for 'proud'
+2025-05-06 00:23:47,859 - meme_rag_manager - INFO - No exact matches for 'proud', trying broader tag matching
+2025-05-06 00:23:47,860 - meme_rag_manager - INFO - Found 4 broader tag matches
+2025-05-06 00:23:47,860 - meme_rag_manager - INFO - Selected meme: laughing_leo.png
+2025-05-06 00:47:22,530 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-06 00:47:22,628 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-06 00:47:22,634 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-06 00:47:22,660 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-05-06 00:47:22,660 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-06 00:47:29,460 - meme_rag_manager - INFO - SmartMemeRAGManager initialized with 0 valid tags
+2025-05-06 00:47:29,823 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-06 00:47:29,841 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-06 00:47:30,050 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-06 00:47:52,125 - intent_classifier - INFO - Message 'I'm so angry about this situat...' classified as 'angry' with 1 matches
+2025-05-06 00:47:52,125 - meme_rag_manager - INFO - Intent tag 'angry' mapped to context tag 'angry' for query 'I'm so angry about this situat...'
+2025-05-06 00:47:52,282 - meme_rag_manager - INFO - Filtered 10 candidates to 0 matches for 'angry'
+2025-05-06 00:47:52,282 - meme_rag_manager - INFO - No exact matches for 'angry', trying broader tag matching
+2025-05-06 00:47:52,282 - meme_rag_manager - INFO - Found 4 broader tag matches
+2025-05-06 00:47:52,283 - meme_rag_manager - INFO - Selected meme: sad_escobar.png
+2025-05-06 00:48:10,211 - intent_classifier - INFO - Message 'im so proud of what i accompli...' classified as 'proud' with 2 matches
+2025-05-06 00:48:10,211 - meme_rag_manager - INFO - Intent tag 'proud' mapped to context tag 'proud' for query 'im so proud of what i accompli...'
+2025-05-06 00:48:11,210 - meme_rag_manager - INFO - Filtered 10 candidates to 0 matches for 'proud'
+2025-05-06 00:48:11,210 - meme_rag_manager - INFO - No exact matches for 'proud', trying broader tag matching
+2025-05-06 00:48:11,210 - meme_rag_manager - INFO - Found 3 broader tag matches
+2025-05-06 00:48:11,210 - meme_rag_manager - INFO - Selected meme: success_kid.png
+2025-05-06 00:48:27,606 - intent_classifier - INFO - Message 'oh sure, beccause THAT always ...' classified as 'agreement' with 1 matches
+2025-05-06 00:48:27,607 - meme_rag_manager - INFO - Intent tag 'agreement' mapped to context tag 'agreement' for query 'oh sure, beccause THAT always ...'
+2025-05-06 00:48:27,643 - meme_rag_manager - INFO - Filtered 10 candidates to 0 matches for 'agreement'
+2025-05-06 00:48:27,643 - meme_rag_manager - INFO - No exact matches for 'agreement', trying broader tag matching
+2025-05-06 00:48:27,643 - meme_rag_manager - INFO - Found 3 broader tag matches
+2025-05-06 00:48:27,643 - meme_rag_manager - INFO - Selected meme: bugs_no.png
+2025-05-06 00:48:47,643 - intent_classifier - INFO - Message 'i have no idea what just happe...' classified as 'rejection' with 1 matches
+2025-05-06 00:48:47,643 - meme_rag_manager - INFO - Intent tag 'rejection' mapped to context tag 'rejection' for query 'i have no idea what just happe...'
+2025-05-06 00:48:47,679 - meme_rag_manager - INFO - Filtered 10 candidates to 3 matches for 'rejection'
+2025-05-06 00:48:47,680 - meme_rag_manager - INFO - Selected meme: bugs_no.png
+2025-05-06 00:49:03,309 - intent_classifier - INFO - No matches found for message 'we finally won after all this ...', using fallback: 'confused'
+2025-05-06 00:49:03,309 - meme_rag_manager - INFO - Intent tag 'confused' mapped to context tag 'confused' for query 'we finally won after all this ...'
+2025-05-06 00:49:03,350 - meme_rag_manager - INFO - Filtered 10 candidates to 0 matches for 'confused'
+2025-05-06 00:49:03,350 - meme_rag_manager - INFO - No exact matches for 'confused', trying broader tag matching
+2025-05-06 00:49:03,350 - meme_rag_manager - INFO - Found 3 broader tag matches
+2025-05-06 00:49:03,350 - meme_rag_manager - INFO - Selected meme: success_kid.png
+2025-05-06 00:49:26,049 - intent_classifier - INFO - Message 'lets not worry - we will get t...' classified as 'rejection' with 1 matches
+2025-05-06 00:49:26,049 - meme_rag_manager - INFO - Intent tag 'rejection' mapped to context tag 'rejection' for query 'lets not worry - we will get t...'
+2025-05-06 00:49:26,209 - meme_rag_manager - INFO - Filtered 10 candidates to 0 matches for 'rejection'
+2025-05-06 00:49:26,209 - meme_rag_manager - INFO - No exact matches for 'rejection', trying broader tag matching
+2025-05-06 00:49:26,209 - meme_rag_manager - INFO - Found 2 broader tag matches
+2025-05-06 00:49:26,210 - meme_rag_manager - INFO - Selected meme: this_is_fine.png
