@@ -131,5 +131,18 @@ python memerag_v2_2pro.py
 
 Created and managed by **Parnal Sinha**.
 
+# MemeRAG Final Submission
+
+Due to persistent GitHub push errors, file size limits, and LFS upload issues, the full MemeRAG project (including large assets and all code) has been uploaded to Google Drive instead.
+
+**Google Drive Link:** https://drive.google.com/drive/folders/1lMfCqp1raiX_8GPa0onhL8R56cdPgLX6?usp=sharing
+
+GitHub was unable to handle the project structure and size despite multiple attempts using both LFS and standard pushes.
+
+Please refer to the provided Google Drive for the complete project files.
+
+If further access or clarification is needed, please contact me directly.
+
+Thank you for understanding.
 
 
